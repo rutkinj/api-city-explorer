@@ -8,8 +8,8 @@ const axios = require('axios');
 const data = require('./data/weather.json');
 const { query, response } = require('express');
 
-const {getForecast} = require('./modules/weather')
-const {getMovies} = require('./modules/movies')
+const getForecast = require('./modules/weather')
+const getMovies = require('./modules/movies')
 // spin up
 const app = express();
 
